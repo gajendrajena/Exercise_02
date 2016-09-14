@@ -1,0 +1,1 @@
+json.array! @owners, partial: 'owners/list_owner', as: :owner
