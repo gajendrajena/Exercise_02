@@ -64,7 +64,7 @@ class OwnersController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_owner
-      @owner = Owner.friendly.find(params[:id])
+      @owner = Owner.friendly.find(params[:name])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

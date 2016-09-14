@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #EEE;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
@@ -86,4 +86,12 @@ div {
 
 label {
   display: block;
+}
+
+.content {
+  width: 760px;
+  margin: 40px auto;
+  border: 1px solid gray;
+  padding: 20px;
+  background: #FFF;
 }

@@ -1,0 +1,19 @@
+<h2>
+	Owners listing
+</h2>
+<%= link_to "Owners", owners_path(format: 'json'), target: '_blank'%>
+
+<h2>
+	Owner api
+</h2>
+<%= link_to Owner.first.name, owner_url(Owner.first, format: :json), target: '_blank'%>
+
+<h2>
+	Articles api
+</h2>
+<%= link_to 'Articles', articles_url(format: :json), target: '_blank'%>
+
+<h2>
+	Article api
+</h2>
+<%= link_to Article.first.name, article_url(Article.first, format: :json), target: '_blank'%>
